@@ -52,5 +52,6 @@ allprojects {
 }
 
 forgix {
-    mergedJarName = "${archives_base_name}_${minecraft_version}_${mod_version}"
+    group = "net.cib-optout"
+    mergedJarName = "${archives_base_name}_${minecraft_version}_${mod_version}.jar"
 }
