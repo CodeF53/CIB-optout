@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "cib-optout",
+  "version": "${version}",
+  "name": "CIB Optout",
+  "description": "optout for lame servers that dont like cardinal ice boats",
+  "authors": [
+    "F53"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/cib-optout",
+    "sources": "https://github.com/codef53/cib-optout"
+  },
+  "license": "the Unlicense",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "net.ciboptout.fabric.CIBOptoutFabric"
+    ]
+  },
+  "depends": {
+    "minecraft": ">=1.19",
+    "architectury": ">=5.7.28"
+  }
+}
